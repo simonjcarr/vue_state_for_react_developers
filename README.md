@@ -1,4 +1,7 @@
 # vue_state_for_react_developers
+## Tutorial
+The article accompanying this repo can be found here 
+https://medium.com/@simonjcarr/vue-state-management-vuex-for-react-developers-4ae032d9c75e
 
 ## Project setup
 ```
