@@ -3,6 +3,10 @@
 The article accompanying this repo can be found here 
 https://medium.com/@simonjcarr/vue-state-management-vuex-for-react-developers-4ae032d9c75e
 
+##Demo
+There is a demo of this application running at
+https://friendly-agnesi-3c8384.netlify.app/
+
 ## Project setup
 ```
 npm install
