@@ -1,18 +1,23 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <div class="text-4xl">Vue State Management for React Developers</div>
+    <p>
+      This simple website demonstrates component and state management in Vue
+    </p>
+    <button class="p-2 bg-blue-600 text-white shadow rounded hover:bg-blue-700 mt-8" @click="buttonClick">
+      Goto the Todo's page
+    </button>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "Home",
-  components: {
-    HelloWorld
+  methods: {
+    buttonClick() {
+      this.$router.push("/todo");
+    }
   }
 };
 </script>
+
+<style></style>
